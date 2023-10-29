@@ -18,7 +18,7 @@ export default function Home() {
           href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
         />
       </Head>
-      <main className="flex min-h-screen flex-col bg-[#121212]">
+      <main className="flex min-h-screen flex-col bg-[#070b16]">
         <Navbar />
         <div className="container mt-24 mx-auto px-12 py-4">
           <HeroSection />

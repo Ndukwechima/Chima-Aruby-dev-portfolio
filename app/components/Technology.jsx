@@ -5,12 +5,12 @@ import Image from "next/image";
 const Technology = () => {
   return (
     <div id="technology" className="mt-[5rem]">
-      <section className="w-screen flex justify-center flex-col items-center bg-[#121212] min-h-[40vh]">
+      <section className="w-screen flex justify-center flex-col items-center min-h-[40vh]">
         <h4 className="text-center text-4xl font-bold mt-10 ml-[-5rem]  text-[#ffffff]">
           Technologies
         </h4>
         <section className="w-[100vw] flex justify-center items-center mt-[7rem]">
-          <main className="w-[100vw] lg:w-[60vw] lg:h-[30vh] ">
+          <main className="w-[100vw] lg:h-[40vh] ">
             <div className="flex justify-around">
               <Image
                 className="w-[40px] h-[40px]  transition-transform transform scale-100 hover:scale-105 cursor-pointer  "
