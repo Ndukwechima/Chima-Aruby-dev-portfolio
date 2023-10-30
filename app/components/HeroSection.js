@@ -11,7 +11,7 @@ function HeroSection() {
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#673be6] to-[#00c0cf]">
-              Hello, I'm{" "}
+              Hello, I'm
             </span>
             <br></br>
             <TypeAnimation
@@ -31,7 +31,7 @@ function HeroSection() {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#adb7be] w-[30vw] text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="text-[#adb7be] w-[40vw] text-base sm:text-lg mb-6 lg:text-xl">
             I am a frontend web developer with a passion for creating
             interactive, user-friendly and responsive web applications.
           </p>

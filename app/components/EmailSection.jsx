@@ -72,7 +72,7 @@ const EmailSection = () => {
           ></textarea>
 
           <button
-            className=" mt-5  border border-[#ffffff] tracking-widest py-2 w-[40vw] lg:w-[30vw] text-[12px] lg:text-[16px] md:text-[14px] bg-[#fbfbfb] font-bold rounded-[4px] text-[#000000]"
+            className=" mt-5  border border-[#5116e6] tracking-widest py-2 w-[40vw] lg:w-[30vw] text-[12px] lg:text-[16px] md:text-[14px] bg-[#541be4] rounded-[4px] text-[#fdfdfd]"
             type="submit"
           >
             Send Message
