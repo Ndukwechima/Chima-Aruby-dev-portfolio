@@ -70,7 +70,7 @@ const AboutSection = () => {
             Next.js, Tailwing css, and Git; while building personal and team
             projects. I am a quick learner and I am always looking to expand my
             knowledge and skill set to become a better web developer. I have a
-            leadership skill and I'm currently leading two different teams in
+            leadership skill and I am currently leading two different teams in
             building a full-stack web applications. I am a team player and I am
             excited to work with both developers, designers and others to create
             amazing applications
