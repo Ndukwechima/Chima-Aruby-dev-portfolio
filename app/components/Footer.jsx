@@ -12,6 +12,7 @@ const Footer = () => {
             src="/images/logo.png"
             width={100}
             height={100}
+            alt="img"
           />
         </span>
         <p className="text-white text-center text-[12px] mx-[30px] tracking-widest">

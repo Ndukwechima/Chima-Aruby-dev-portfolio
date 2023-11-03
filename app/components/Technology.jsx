@@ -17,36 +17,42 @@ const Technology = () => {
                 src="/images/tech/HTML.png"
                 width={50}
                 height={50}
+                alt="img"
               />
               <Image
                 className="w-[40px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[40px]"
                 src="/images/tech/CSS.png"
                 width={50}
                 height={50}
+                alt="img"
               />
               <Image
                 className="w-[35px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[35px]"
                 src="/images/tech/javascript.png"
                 width={50}
                 height={50}
+                alt="img"
               />
               <Image
                 className="w-[35px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[35px]"
                 src="/images/tech/React.png"
                 width={50}
                 height={50}
+                alt="img"
               />
               <Image
                 className="w-[35px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[35px]"
                 src="/images/tech/Next.jpeg"
                 width={50}
                 height={50}
+                alt="img"
               />
               <Image
                 className="w-[35px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[35px]"
                 src="/images/tech/Tailwind.png"
                 width={50}
                 height={50}
+                alt="img"
               />
             </div>
             <div className="flex justify-around mt-[3rem]">
@@ -55,36 +61,42 @@ const Technology = () => {
                 src="/images/tech/bootstrap.jpg"
                 width={50}
                 height={50}
+                alt="img"
               />
               <Image
                 className="w-[40px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[40px]"
                 src="/images/tech/Figma.png"
                 width={50}
                 height={50}
+                alt="img"
               />
               <Image
                 className="w-[40px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[40px]"
                 src="/images/tech/Photoshop.jpg"
                 width={50}
                 height={50}
+                alt="img"
               />
               <Image
                 className="w-[25px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[28px]"
                 src="/images/tech/Illustrator.jpg"
                 width={50}
                 height={50}
+                alt="img"
               />
               <Image
                 className="w-[38px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[38px]"
                 src="/images/tech/XD.webp"
                 width={50}
                 height={50}
+                alt="img"
               />
               <Image
                 className="w-[38px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[38px]"
                 src="/images/tech/Graphql.png"
                 width={50}
                 height={50}
+                alt="img"
               />
             </div>
           </main>

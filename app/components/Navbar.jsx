@@ -39,6 +39,7 @@ const Navbar = () => {
             src="/images/logo.png"
             width={100}
             height={100}
+            alt="img"
           />
         </Link>
         <div className="mobile-menu block md:hidden">

@@ -10,15 +10,15 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div>
-      <Head>
+      {/* <Head>
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
         />
-      </Head>
+      </Head> */}
       <main className="flex min-h-screen flex-col bg-[#0b101f]">
         <Navbar />
-        <div className="container mt-24 mx-auto px-12 py-4">
+        <div className="container mt-24 mx-auto py-4">
           <HeroSection />
           <AboutSection />
           <ProjectsSection />

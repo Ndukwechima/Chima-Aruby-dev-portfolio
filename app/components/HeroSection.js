@@ -31,7 +31,7 @@ function HeroSection() {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#adb7be] w-[40vw] text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="text-[#adb7be] w-[35vw] text-base sm:text-lg mb-6 lg:text-xl">
             I am a frontend web developer with a passion for creating
             interactive, user-friendly and responsive web applications.
           </p>
