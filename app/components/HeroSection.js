@@ -52,7 +52,7 @@ function HeroSection() {
             <Image
               src="/images/hero-image.jpg"
               alt="hero image"
-              className="absolute animate-pulse infinite -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full transform scale-100 hover:scale-110 transition-transform"
+              className="absolute  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full transform scale-100 hover:scale-110 transition-transform"
               width={200}
               height={200}
             />
