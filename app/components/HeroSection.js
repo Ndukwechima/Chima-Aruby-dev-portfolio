@@ -8,7 +8,7 @@ function HeroSection() {
   return (
     <section className="mt-[3rem]">
       <div className="grid grid-cols-1 sm:grid-cols-12">
-        <div className="col-span-7 place-self-center text-center sm:text-left">
+        <div className="col-span-7 place-self-center text-center sm:text-left w-[80vw] md:w-[40vw] lg:w-[45vw]">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#673be6] to-[#00c0cf]">
               Hello, I&apos;m
@@ -31,7 +31,7 @@ function HeroSection() {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#adb7be] w-[35vw] text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="text-[#adb7be] w-[80vw] md:w-[30vw]  lg:w-[35vw] text-base sm:text-lg mb-6 lg:text-xl">
             I am a frontend web developer with a passion for creating
             interactive, user-friendly and responsive web applications.
           </p>
@@ -48,7 +48,7 @@ function HeroSection() {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#6c33e9] w-[250px] h-[250px]  lg:h[400px] relative">
+          <div className="rounded-full bg-[#6c33e9] w-[250px] h-[250px]  lg:h[400px] hidden md:flex lg:flex relative">
             <Image
               src="/images/hero-image.jpg"
               alt="hero image"

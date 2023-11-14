@@ -37,7 +37,7 @@ const EmailSection = () => {
       className="w-[100vw] md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 mt-[5rem]"
     >
       <section className=" lg:w-[60vw]">
-        <h4 className="ml-[50px] text-[20px] text-[#ffffff] font-bold tracking-wider">
+        <h4 className="ml-[50px] text-[30px] lg:text-[30px] text-center lg:text-start text-[#ffffff] font-bold tracking-wider">
           Contact Me
         </h4>
         <form
@@ -46,7 +46,7 @@ const EmailSection = () => {
           className="p-[50px] flex flex-col lg:w-[10vw]"
         >
           <input
-            className="bg-transparent w-[40vw] lg:w-[30vw] border border-[#ffffff] rounded-[3px] text-[#fbfbfb] p-1 placeholder:text-[10px] placeholder:text-[#ffffff] placeholder:px-[10px]"
+            className="bg-transparent w-[80vw] lg:w-[30vw] border border-[#ffffff] rounded-[3px] text-[#fbfbfb] p-1 placeholder:text-[10px] placeholder:text-[#ffffff] placeholder:px-[10px]"
             type="text"
             name="user_name"
             placeholder="Enter your full name..."
@@ -54,7 +54,7 @@ const EmailSection = () => {
           />
           <br />
           <input
-            className="bg-transparent mt-3 w-[40vw] lg:w-[30vw] text-[#ffffff] rounded-[3px] p-1 border border-[#ffffff] placeholder:text-[10px] placeholder:text-[#ffffff] placeholder:px-[10px]
+            className="bg-transparent mt-3 w-[80vw] lg:w-[30vw] text-[#ffffff] rounded-[3px] p-1 border border-[#ffffff] placeholder:text-[10px] placeholder:text-[#ffffff] placeholder:px-[10px]
             "
             type="email"
             name="user_email"
@@ -63,7 +63,7 @@ const EmailSection = () => {
           />
           <br />
           <textarea
-            className=" w-[40vw] h-[20vh] mt-3 rounded-[3px] lg:w-[30vw] bg-transparent text-[#ffffff] border border-[#ffffff] py-3 placeholder:text-[10px] placeholder:text-[#ffffff] placeholder:px-[10px]"
+            className=" w-[80vw] h-[20vh] mt-3 rounded-[3px] lg:w-[30vw] bg-transparent text-[#ffffff] border border-[#ffffff] py-3 placeholder:text-[10px] placeholder:text-[#ffffff] placeholder:px-[10px]"
             name="message"
             cols="30"
             rows="10"
@@ -72,7 +72,7 @@ const EmailSection = () => {
           ></textarea>
 
           <button
-            className=" mt-5  border border-[#5116e6] tracking-widest py-2 w-[40vw] lg:w-[30vw] text-[12px] lg:text-[16px] md:text-[14px] bg-[#541be4] rounded-[4px] text-[#fdfdfd]"
+            className=" mt-5  border border-[#5116e6] tracking-widest py-2 w-[80vw] lg:w-[30vw] text-[12px] lg:text-[16px] md:text-[14px] bg-[#541be4] rounded-[4px] text-[#fdfdfd]"
             type="submit"
           >
             Send Message
@@ -85,7 +85,7 @@ const EmailSection = () => {
           {" "}
           Let&apos;s Connect
         </h5>
-        <p className="text-[#ADB7BE]  mb-4 max-w-md ">
+        <p className="text-[#ADB7BE]  mb-4 max-w-md w-[80vw] md:w-[30vw] ">
           I&apos;m currently looking for new opportunities, my inbox is always
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!

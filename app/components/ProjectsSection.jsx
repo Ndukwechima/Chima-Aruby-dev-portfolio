@@ -85,7 +85,10 @@ const ProjectsSection = () => {
         My Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center mx-auto py-6">
-        <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12 w-[90vw]">
+        <ul
+          ref={ref}
+          className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 w-[90vw]"
+        >
           {filteredProjects.map((project, index) => (
             <motion.li
               key={index}
