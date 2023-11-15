@@ -6,12 +6,12 @@ const Technology = () => {
   return (
     <div id="technology" className="mt-[5rem]">
       <section className="w-[100vw] flex justify-center flex-col items-center min-h-[40vh]">
-        <h4 className="text-center text-4xl font-bold mt-10 ml-[-5rem]  text-[#ffffff]">
+        <h4 className="text-center text-4xl font-bold mt-10  text-[#ffffff]">
           Technologies
         </h4>
-        <section className="w-[100vw] flex justify-center items-center mt-[7rem]">
+        <section className="w-[100vw] flex justify-center items-center mt-[4rem]">
           <main className="w-[100vw] lg:h-[40vh] ">
-            <div className=" w-[90vw] flex justify-around ">
+            <div className=" w-[100vw] flex justify-around ">
               <Image
                 className="w-[40px] h-[40px]  transition-transform transform scale-100 hover:scale-105 cursor-pointer  "
                 src="/images/tech/HTML.png"
@@ -55,7 +55,7 @@ const Technology = () => {
                 alt="img"
               />
             </div>
-            <div className="w-[90vw] flex justify-around  mt-[3rem]">
+            <div className="w-[100vw] flex justify-around  mt-[3rem]">
               <Image
                 className="w-[40px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[30px]"
                 src="/images/tech/bootstrap.jpg"

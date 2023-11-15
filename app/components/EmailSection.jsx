@@ -34,16 +34,16 @@ const EmailSection = () => {
   return (
     <div
       id="contact"
-      className="w-[100vw] md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 mt-[5rem]"
+      className="w-[100vw] md:grid md:grid-cols-2 gap-8 items-center py-8 xl:gap-16 sm:py-16 xl:px-12 mt-[5rem]"
     >
       <section className=" lg:w-[60vw]">
-        <h4 className="ml-[50px] text-[30px] lg:text-[30px] text-center lg:text-start text-[#ffffff] font-bold tracking-wider">
+        <h4 className="text-[30px] lg:text-[30px] lg:ml-[55px] text-center lg:text-start  text-[#ffffff] font-bold tracking-wider">
           Contact Me
         </h4>
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="p-[50px] flex flex-col lg:w-[10vw]"
+          className="w-[100vw] lg:p-[54px] justify-center items-center flex flex-col lg:w-[37vw] mt-11"
         >
           <input
             className="bg-transparent w-[80vw] lg:w-[30vw] border border-[#ffffff] rounded-[3px] text-[#fbfbfb] p-1 placeholder:text-[10px] placeholder:text-[#ffffff] placeholder:px-[10px]"
@@ -80,12 +80,12 @@ const EmailSection = () => {
         </form>
       </section>
 
-      <div className="w-[40vw] ml-[5rem]">
+      <div className="w-[50vw] ml-[5rem] mt-[3rem]">
         <h5 className="text-xl font-bold text-white my-2">
           {" "}
           Let&apos;s Connect
         </h5>
-        <p className="text-[#ADB7BE]  mb-4 max-w-md w-[80vw] md:w-[30vw] ">
+        <p className="text-[#ADB7BE]  mb-4 max-w-md w-[70vw] md:w-[30vw] ">
           I&apos;m currently looking for new opportunities, my inbox is always
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
