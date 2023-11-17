@@ -36,7 +36,7 @@ const Navbar = () => {
         >
           <Image
             className=" mt-8 ml-7 transform scale-100 hover:scale-110 transition-transform"
-            src="/images/logo.png"
+            src="/images/Logo.png"
             width={100}
             height={100}
             alt="img"
