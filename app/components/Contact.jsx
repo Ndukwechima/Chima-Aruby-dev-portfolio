@@ -1,12 +1,16 @@
 "use client";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import GithubIcon from "../../public/github-icon.svg";
-import LinkedinIcon from "../../public/linkedin-icon.svg";
 import Link from "next/link";
-import Image from "next/image";
+import {
+  FaWhatsappSquare,
+  FaTwitterSquare,
+  FaFacebookSquare,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
 
-const EmailSection = () => {
+const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -34,7 +38,7 @@ const EmailSection = () => {
   return (
     <div
       id="contact"
-      className="w-[100vw] md:grid md:grid-cols-2 gap-8 items-center py-8 xl:gap-16 sm:py-16 xl:px-12 mt-[5rem]"
+      className="w-[90vw] md:grid sm:grid-cols-1 md:grid-cols lg:flex gap-8 items-center py-8 xl:gap-16 sm:py-16 xl:px-12 mt-[5rem]"
     >
       <section className=" lg:w-[60vw]">
         <h4 className="text-[30px] lg:text-[30px] lg:ml-[55px] text-center lg:text-start  text-[#ffffff] font-bold tracking-wider">
@@ -85,17 +89,26 @@ const EmailSection = () => {
           {" "}
           Let&apos;s Connect
         </h5>
-        <p className="text-[#ADB7BE]  mb-4 max-w-md w-[70vw] md:w-[30vw] ">
+        <p className="text-[#ADB7BE]  mb-4 max-w-md w-[70vw] md:w-[60vw] ">
           I&apos;m currently looking for new opportunities, my inbox is always
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
-            <Image src={GithubIcon} alt="Github Icon" />
+          <Link href="https://github.com/Ndukwechima">
+            <FaGithub size={30} />
           </Link>
-          <Link href="linkedin.com">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+          <Link href="https://www.linkedin.com/in/ndukwe-chima-349198196/">
+            <FaLinkedin size={30} />
+          </Link>
+          <Link href="https://twitter.com/PlutonetDesignz">
+            <FaTwitterSquare size={30} className="" />
+          </Link>
+          <Link href="https://web.facebook.com/kennethchima.kenneth">
+            <FaFacebookSquare size={30} />
+          </Link>
+          <Link href="https://wa.link/67fdxw">
+            <FaWhatsappSquare size={30} />
           </Link>
         </div>
       </div>
@@ -103,4 +116,4 @@ const EmailSection = () => {
   );
 };
 
-export default EmailSection;
+export default Contact;

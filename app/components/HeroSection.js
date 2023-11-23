@@ -7,7 +7,7 @@ import { TypeAnimation } from "react-type-animation";
 function HeroSection() {
   return (
     <section className="mt-[3rem]">
-      <div className="grid grid-cols-1 sm:grid-cols-12">
+      <div className="grid grid-cols-1 md:grid-cols-12 ">
         <div className="col-span-7 place-self-center text-center sm:text-left w-[80vw] md:w-[40vw] lg:w-[45vw]">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold h-[20vh] md:h-[20vh] lg:h-[20vh]">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#673be6] to-[#00c0cf]">
@@ -36,13 +36,17 @@ function HeroSection() {
             interactive, user-friendly and responsive web applications.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-[#673be6]  to-[#00c0cf] hover:bg-slate-200 text-white transform scale-100 hover:scale-110 transition-transform">
+            <a
+              href="#contact"
+              className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-[#673be6]  to-[#00c0cf] hover:bg-slate-200 text-white transform scale-100 hover:scale-110 transition-transform"
+            >
               Hire Me
-            </button>
-            <button className="px-1 py-1 w-full  sm:w-fit rounded-full bg-gradient-to-br from-[#673be6] via-[#00c0cf] bg-transparent hover:bg-slate-800 text-white mt-3">
+            </a>
+            <button className="px-1 py-1 w-full  sm:w-fit rounded-full bg-gradient-to-br from-[#673be6] via-[#00c0cf] bg-transparent hover:bg-slate-800 text-white mt-6">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 ">
-                {" "}
-                Download CV
+                <a href="https://drive.google.com/file/d/1DsGQLnZY3naSgZxV0tJgViY5aJ14uWiD/view?usp=sharing">
+                  Download CV
+                </a>
               </span>
             </button>
           </div>

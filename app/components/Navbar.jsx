@@ -8,6 +8,10 @@ import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
   {
+    title: "Home",
+    path: "/",
+  },
+  {
     title: "About",
     path: "#about",
   },
@@ -42,7 +46,7 @@ const Navbar = () => {
             alt="img"
           />
         </Link>
-        <div className="mobile-menu block md:hidden">
+        <div className="mobile-menu block md:hidden mt-10">
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
