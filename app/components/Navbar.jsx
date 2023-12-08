@@ -32,14 +32,14 @@ const navLinks = [
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10  bg-opacity-90">
-      <div className="flex flex-wrap items-center lg:w-[100vw] justify-between mx-auto px-4 py-2">
+    <nav className="fixed top-0 left-0 right-0 z-10 bg-[#0b101f] h-[7rem]">
+      <div className="flex flex-wrap items-center lg:w-[100vw] justify-between mx-auto px-4 ">
         <Link
           href={"/"}
           className=" text-2xl md:text-5xl text-white font-semibold"
         >
           <Image
-            className=" mt-8 ml-7 transform scale-100 hover:scale-110 transition-transform"
+            className=" mt-10 ml-7 transform scale-100 hover:scale-110 transition-transform"
             src="/images/Logo.png"
             width={100}
             height={100}
@@ -63,7 +63,7 @@ const Navbar = () => {
             </button>
           )}
         </div>
-        <div className="menu hidden md:block md:w-auto" id="navbar">
+        <div className="menu hidden md:block md:w-auto h-9" id="navbar">
           <ul className="flex p-4 md:p-0 md:flex-row mt-8 mr-7 md:space-x-8">
             {navLinks.map((link, index) => (
               <li key={index}>

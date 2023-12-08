@@ -1,105 +1,122 @@
-"use client";
-import React from "react";
 import Image from "next/image";
-
 const Technology = () => {
   return (
     <div id="technology" className="mt-[5rem]">
-      <section className="w-[100vw] flex justify-center flex-col items-center min-h-[40vh]">
+      <section className="w-full flex justify-center flex-col items-center">
         <h4 className="text-center text-4xl font-bold mt-10  text-[#ffffff]">
           Technologies
         </h4>
-        <section className="w-[100vw] flex justify-center items-center mt-[4rem]">
-          <main className="w-[100vw] lg:h-[40vh] ">
-            <div className=" w-[100vw] flex justify-around ">
+        <section className="w-full mt-[5rem] flex items-center justify-center">
+          <div className="w-[80vw] grid grid-cols-4 gap-6 place-items-center ">
+            <div className="bg-white py-4 px-6 rounded-md w-[5em] rotate-12 ">
               <Image
-                className="w-[40px] h-[40px]  transition-transform transform scale-100 hover:scale-105 cursor-pointer  "
-                src="/images/tech/HTML.png"
-                width={50}
-                height={50}
-                alt="img"
-              />
-              <Image
-                className="w-[40px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[40px]"
-                src="/images/tech/CSS.png"
-                width={50}
-                height={50}
-                alt="img"
-              />
-              <Image
-                className="w-[35px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[35px]"
-                src="/images/tech/javascript.png"
-                width={50}
-                height={50}
-                alt="img"
-              />
-              <Image
-                className="w-[35px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[35px]"
-                src="/images/tech/React.png"
-                width={50}
-                height={50}
-                alt="img"
-              />
-              <Image
-                className="w-[35px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[35px]"
-                src="/images/tech/Next.jpeg"
-                width={50}
-                height={50}
-                alt="img"
-              />
-              <Image
-                className="w-[35px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[35px]"
-                src="/images/tech/Tailwind.png"
+                className="  transition-transform transform scale-100 hover:scale-105 cursor-pointer  "
+                src="/images/tech/html.svg"
                 width={50}
                 height={50}
                 alt="img"
               />
             </div>
-            <div className="w-[100vw] flex justify-around  mt-[3rem]">
+            <div className="bg-white py-4 px-6 rounded-md w-[5em]  rotate-12 ">
               <Image
-                className="w-[40px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[30px]"
-                src="/images/tech/bootstrap.jpg"
+                className="  transition-transform transform scale-100 hover:scale-105 cursor-pointer  "
+                src="/images/tech/css.svg"
                 width={50}
                 height={50}
                 alt="img"
               />
+            </div>
+            <div className="bg-white py-4 px-6 rounded-md w-[5em]  rotate-12">
               <Image
-                className="w-[40px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[40px]"
+                className="  transition-transform transform scale-100 hover:scale-105 cursor-pointer  "
+                src="/images/tech/javascript.svg"
+                width={50}
+                height={50}
+                alt="img"
+              />
+            </div>
+            <div className="bg-white py-4 px-6 rounded-md w-[5em]  rotate-12">
+              <Image
+                className="  transition-transform transform scale-100 hover:scale-105 cursor-pointer  "
+                src="/images/tech/typescript.svg"
+                width={50}
+                height={50}
+                alt="img"
+              />
+            </div>
+            <div className="bg-white py-4 px-6 rounded-md w-[5em]  rotate-12 ">
+              <Image
+                className="  transition-transform transform scale-100 hover:scale-105 cursor-pointer  "
+                src="/images/tech/tailwindcss.svg"
+                width={50}
+                height={50}
+                alt="img"
+              />
+            </div>
+            <div className="bg-white py-4 px-6 rounded-md w-[5em]  rotate-12">
+              <Image
+                className=" transition-transform transform scale-100 hover:scale-105 cursor-pointer  "
+                src="/images/tech/react.svg"
+                width={50}
+                height={50}
+                alt="img"
+              />
+            </div>
+            <div className="bg-white py-4 px-6 rounded-md w-[5em]  rotate-12">
+              <Image
+                className="  transition-transform transform scale-100 hover:scale-105 cursor-pointer  "
+                src="/images/tech/nextjs.svg"
+                width={50}
+                height={50}
+                alt="img"
+              />
+            </div>
+            <div className="bg-white py-4 px-6 rounded-md w-[5em]  rotate-12">
+              <Image
+                className="  transition-transform transform scale-100 hover:scale-105 cursor-pointer  "
+                src="/images/tech/mui.svg"
+                width={50}
+                height={50}
+                alt="img"
+              />
+            </div>
+            <div className="bg-white py-4 px-6 rounded-md w-[5em]  rotate-12">
+              <Image
+                className=" transition-transform transform scale-100 hover:scale-105 cursor-pointer  "
+                src="/images/tech/git.svg"
+                width={50}
+                height={50}
+                alt="img"
+              />
+            </div>
+            <div className="bg-white py-4 px-6 rounded-md w-[5em]  rotate-12">
+              <Image
+                className=" transition-transform transform scale-100 hover:scale-105 cursor-pointer  "
+                src="/images/tech/github.svg"
+                width={50}
+                height={50}
+                alt="img"
+              />
+            </div>
+            <div className="bg-white py-4 px-6 rounded-md w-[5em]  rotate-12">
+              <Image
+                className=" transition-transform transform scale-100 hover:scale-105 cursor-pointer  "
+                src="/images/tech/redux.svg"
+                width={50}
+                height={50}
+                alt="img"
+              />
+            </div>
+            <div className="bg-white py-4 px-6 rounded-md w-[5em]  rotate-12">
+              <Image
+                className=" transition-transform transform scale-100 hover:scale-105 cursor-pointer  "
                 src="/images/tech/Figma.png"
                 width={50}
                 height={50}
                 alt="img"
               />
-              <Image
-                className="w-[40px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[40px]"
-                src="/images/tech/Photoshop.jpg"
-                width={50}
-                height={50}
-                alt="img"
-              />
-              <Image
-                className="w-[25px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[28px]"
-                src="/images/tech/Illustrator.jpg"
-                width={50}
-                height={50}
-                alt="img"
-              />
-              <Image
-                className="w-[38px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[38px]"
-                src="/images/tech/XD.webp"
-                width={50}
-                height={50}
-                alt="img"
-              />
-              <Image
-                className="w-[38px] transition-transform transform scale-100 hover:scale-105 cursor-pointer h-[38px]"
-                src="/images/tech/Graphql.png"
-                width={50}
-                height={50}
-                alt="img"
-              />
             </div>
-          </main>
+          </div>
         </section>
       </section>
     </div>

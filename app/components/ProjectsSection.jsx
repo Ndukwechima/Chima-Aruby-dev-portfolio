@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
-// import ProjectTag from "./ProjectTag";
+
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
@@ -21,7 +21,7 @@ const projectsData = [
     image: "/images/projects/p1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Ndukwechima/E-commerce-website",
-    previewUrl: "/",
+    previewUrl: "https://e-commerce-website-eight-gold.vercel.app/",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const projectsData = [
     image: "/images/projects/p3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Ndukwechima/My-Favorite-Food-Website",
-    previewUrl: "/",
+    previewUrl: "https://my-favorite-food-website.vercel.app/",
   },
   {
     id: 4,
@@ -39,16 +39,17 @@ const projectsData = [
     image: "/images/projects/p4.png",
     tag: ["All", "design"],
     gitUrl: "https://github.com/Ndukwechima/Car-Rental-Website-React.js",
-    previewUrl: "/",
+    previewUrl:
+      "https://car-rental-website-react-ng9462n2h-chimandukwer.vercel.app/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
+    title: "React-Typescript Simple Fitness website",
     description: "Authentication and CRUD operations",
     image: "/images/projects/p5.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://github.com/Ndukwechima/Flex-fit-react-typescript",
   },
   {
     id: 6,
@@ -56,8 +57,10 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/p6.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl:
+      "https://github.com/Ndukwechima/Uloma-Real-Estate-Management-Project",
+    previewUrl:
+      "https://uloma-real-estate-management-project-jf6ocpzbi-chimandukwer.vercel.app/",
   },
 ];
 
