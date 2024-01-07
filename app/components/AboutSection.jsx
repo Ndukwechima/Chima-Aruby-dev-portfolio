@@ -66,16 +66,16 @@ const AboutSection = () => {
             About Me
           </h2>
           <p className="text-base lg:text-lg text-[#adb7be]">
-            I am a frontend web developer with a passion for creating
-            interactive, user-friendly and responsive web applications. I have
+            I am a front-end web developer with a passion for creating
+            interactive, user-friendly, and responsive web applications. I have
             experience working with HTML, CSS, Javascript, React, Next.js,
-            Tailwing css, and Git; while building personal and team projects. I
-            am a quick learner and I am always looking to expand my knowledge
-            and skill set to become a better web developer. I have a leadership
-            skill and I am currently leading two different teams in building a
+            Tailwind CSS, and Git; while building personal and team projects. I
+            am a fast learner and I am always looking to expand my knowledge and
+            skill set to become a better web developer. I have a leadership
+            skill and I am currently leading two different teams in building
             full-stack web applications. I am a team player and I am excited to
-            work with both developers, designers and others to create amazing
-            applications
+            work with developers, designers, and others to create amazing
+            applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

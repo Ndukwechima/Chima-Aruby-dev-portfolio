@@ -7,7 +7,7 @@ const Technology = () => {
           Technologies
         </h4>
         <section className="w-full mt-[5rem] flex items-center justify-center">
-          <div className="w-[80vw] grid grid-cols-4 gap-6 place-items-center ">
+          <div className="w-[80vw] grid grid-cols-3  md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center ">
             <div className="bg-white py-4 px-6 rounded-md w-[5em] rotate-12 ">
               <Image
                 className="  transition-transform transform scale-100 hover:scale-105 cursor-pointer  "
