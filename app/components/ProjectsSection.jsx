@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "React News Website",
-    description: "Project 1 description",
+    description: "This is my first React project built while learning react",
     image: "/images/projects/p2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Ndukwechima/News-Blog-Website-React.js",
@@ -17,7 +17,8 @@ const projectsData = [
   {
     id: 2,
     title: " Fast-Hands Website",
-    description: "Project 2 description",
+    description:
+      "This is an ongoing startup project with React and Tailwind CSS",
     image: "/images/projects/p1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Ndukwechima/Fast-hand-project",
@@ -25,19 +26,18 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Uloma Real-Estate Website",
-    description: "Project 3 description",
-    image: "/images/projects/p3.png",
+    title: "E-Commerce Website",
+    description: "This is a React E-commerce website with Bootstrap",
+    image: "/images/projects/p6.png",
     tag: ["All", "Web"],
-    gitUrl:
-      "https://github.com/Ndukwechima/Uloma-Real-Estate-Management-Project",
+    gitUrl: "https://github.com/Ndukwechima/Shopping-store-website",
     previewUrl:
-      "https://uloma-real-estate-management-project-jf6ocpzbi-chimandukwer.vercel.app/",
+      "https://shopping-store-website-7uci5l2by-chimandukwer.vercel.app/",
   },
   {
     id: 4,
-    title: "My Favorite Food Website",
-    description: "Project 4 description",
+    title: "Food category Website",
+    description: "This is a simple UI food category website",
     image: "/images/projects/p4.png",
     tag: ["All", "design"],
     gitUrl: "https://github.com/Ndukwechima/My-Favorite-Food-Website",
@@ -46,7 +46,7 @@ const projectsData = [
   {
     id: 5,
     title: "React-Typescript Simple Fitness website",
-    description: "Project 5 description",
+    description: "This is a React and Typescript Simple fitnes website",
     image: "/images/projects/p5.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Ndukwechima/Flex-fit-react-typescript/",
@@ -54,12 +54,14 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "E-commerce Website",
-    description: "Project 5 description",
-    image: "/images/projects/p6.png",
+    title: "Uloma Real-Estate Website",
+    description:
+      "This is a React Real-Estate Management Platform with Tailwind CSS",
+    image: "/images/projects/p3.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Ndukwechima/E-commerce-website",
-    previewUrl: "https://e-commerce-website-eight-gold.vercel.app/",
+    gitUrl: "https://github.com/Ndukwechima/Uloma-real-estate-project",
+    previewUrl:
+      "https://uloma-real-estate-management-project-jf6ocpzbi-chimandukwer.vercel.app/",
   },
 ];
 

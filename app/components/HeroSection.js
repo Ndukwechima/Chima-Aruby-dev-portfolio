@@ -16,7 +16,7 @@ function HeroSection() {
             <br></br>
             <TypeAnimation
               sequence={[
-                " Chima, Aruby",
+                " Chima Arubuike",
                 1000,
                 "Frontend",
                 1000,
