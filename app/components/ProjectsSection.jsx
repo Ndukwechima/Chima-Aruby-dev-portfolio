@@ -61,7 +61,7 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Ndukwechima/Uloma-real-estate-project",
     previewUrl:
-      "https://uloma-real-estate-management-project-jf6ocpzbi-chimandukwer.vercel.app/",
+      "https://uloma-real-estate-project-nac3o5ygl-chimandukwer.vercel.app/",
   },
 ];
 
