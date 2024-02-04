@@ -45,12 +45,13 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "React-Typescript Simple Fitness website",
+    title: "React Typescript Fitness Website",
     description: "This is a React and Typescript Simple fitnes website",
     image: "/images/projects/p5.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Ndukwechima/Flex-fit-react-typescript/",
-    previewUrl: "",
+    previewUrl:
+      "https://flex-fit-react-typescript-otl2scyrp-chimandukwer.vercel.app/",
   },
   {
     id: 6,
