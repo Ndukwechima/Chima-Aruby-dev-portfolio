@@ -66,14 +66,14 @@ const AboutSection = () => {
             About Me
           </h2>
           <p className="text-base lg:text-lg text-[#adb7be]">
-            I am a front-end web developer with a passion for creating
+            I am a junior front-end web developer with a passion for creating
             interactive, user-friendly, and responsive web applications. I have
-            experience working with HTML, CSS, Javascript, React, Next.js,
-            Tailwind CSS, and Git; while building personal and team projects. I
-            am a fast learner and I am always looking to expand my knowledge and
-            skill set to become a better web developer. I have a leadership
-            skill and I am currently leading two different teams in building
-            full-stack web applications. I am a team player and I am excited to
+            experience working with HTML, CSS, Javascript, React, Tailwind CSS,
+            and Git; while building personal and team projects. I have also
+            started learning Next.js and Typescript as both are highly needed in
+            building a better applications. I am a fast learner and I am always
+            looking foward to expand my knowledge and skill set to become a
+            better web developer. I am a team player and I will be excited to
             work with developers, designers, and others to create amazing
             applications.
           </p>

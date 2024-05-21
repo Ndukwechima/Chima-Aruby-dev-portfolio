@@ -7,25 +7,16 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React News Website",
-    description: "This is my first React project built while learning react",
-    image: "/images/projects/p2.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Ndukwechima/News-Blog-Website-React.js",
-    previewUrl: "/",
+    title: "Food category Website",
+    description: "This is a simple UI food category website",
+    image: "/images/projects/p4.png",
+    tag: ["All", "design"],
+    gitUrl: "https://github.com/Ndukwechima/My-Favorite-Food-Website",
+    previewUrl: "https://my-favorite-food-website.vercel.app/",
   },
+
   {
     id: 2,
-    title: " Fast-Hands Website",
-    description:
-      "This is an ongoing startup project with React and Tailwind CSS",
-    image: "/images/projects/p1.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Ndukwechima/Fast-hand-project",
-    previewUrl: "https://fast-hand-project.vercel.app/",
-  },
-  {
-    id: 3,
     title: "E-Commerce Website",
     description: "This is a React E-commerce website with Bootstrap",
     image: "/images/projects/p6.png",
@@ -34,35 +25,58 @@ const projectsData = [
     previewUrl:
       "https://shopping-store-website-7uci5l2by-chimandukwer.vercel.app/",
   },
+
+  {
+    id: 3,
+    title: "Next.js Movie App",
+    description: "This is a simple movie app built with Next.js",
+    image: "/images/projects/p7.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ndukwechima/Movie-Web-App",
+    previewUrl: "https://movie-web-app-iota.vercel.app/",
+  },
+
   {
     id: 4,
-    title: "Food category Website",
-    description: "This is a simple UI food category website",
-    image: "/images/projects/p4.png",
-    tag: ["All", "design"],
-    gitUrl: "https://github.com/Ndukwechima/My-Favorite-Food-Website",
-    previewUrl: "https://my-favorite-food-website.vercel.app/",
+    title: "React News Website",
+    description: "This is my first React project built while learning react",
+    image: "/images/projects/p2.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ndukwechima/News-Blog-Website-React.js",
+    previewUrl: "/",
   },
+
   {
     id: 5,
-    title: "React Typescript Fitness Website",
-    description: "This is a React and Typescript Simple fitnes website",
-    image: "/images/projects/p5.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Ndukwechima/Flex-fit-react-typescript/",
-    previewUrl:
-      "https://flex-fit-react-typescript-otl2scyrp-chimandukwer.vercel.app/",
-  },
-  {
-    id: 6,
-    title: "Uloma Real-Estate Website",
+    title: " Fast-Hands Website",
     description:
-      "This is a React Real-Estate Management Platform with Tailwind CSS",
-    image: "/images/projects/p3.png",
+      "This is an ongoing startup project with React and Tailwind CSS",
+    image: "/images/projects/p1.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Ndukwechima/Uloma-real-estate-project",
-    previewUrl: "https://uloma-real-estate-project.vercel.app/",
+    gitUrl: "https://github.com/Ndukwechima/Fast-hand-project",
+    previewUrl: "https://fast-hand-project.vercel.app/",
   },
+
+  // {
+  //   id: 6,
+  //   title: "React Typescript Fitness Website",
+  //   description: "This is a React and Typescript Simple fitnes website",
+  //   image: "/images/projects/p5.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "https://github.com/Ndukwechima/Flex-fit-react-typescript/",
+  //   previewUrl:
+  //     "https://flex-fit-react-typescript-otl2scyrp-chimandukwer.vercel.app/",
+  // },
+  // {
+  //   id: 7,
+  //   title: "Uloma Real-Estate Website",
+  //   description:
+  //     "This is a React Real-Estate Management Platform with Tailwind CSS",
+  //   image: "/images/projects/p3.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "https://github.com/Ndukwechima/Uloma-real-estate-project",
+  //   previewUrl: "https://uloma-real-estate-project.vercel.app/",
+  // },
 ];
 
 const ProjectsSection = () => {
