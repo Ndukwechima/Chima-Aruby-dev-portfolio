@@ -11,18 +11,16 @@ function HeroSection() {
         <div className="col-span-7 place-self-center text-center sm:text-left w-[80vw] md:w-[40vw] lg:w-[45vw]">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold h-[20vh] md:h-[20vh] lg:h-[20vh]">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#673be6] to-[#00c0cf]">
-              Hello, I&apos;m
+              Hi, I&apos;m
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
                 " Chima Arubuike",
                 1000,
-                "Frontend",
+                "Front-end",
                 1000,
-                "Web Developer,",
-                1000,
-                "UI/UX Designer",
+                "Software Developer,",
                 1000,
               ]}
               wrapper="span"
