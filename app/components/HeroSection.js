@@ -30,8 +30,8 @@ function HeroSection() {
             />
           </h1>
           <p className="text-[#adb7be] w-[80vw] md:w-[30vw]  lg:w-[35vw] text-base sm:text-lg mb-6 lg:text-xl">
-            I am a frontend web developer with a passion for creating
-            interactive, user-friendly and responsive web applications.
+            I am an entry-level front-end Software developer with a passion for
+            creating interactive, user-friendly and responsive web applications.
           </p>
           <div>
             <a
