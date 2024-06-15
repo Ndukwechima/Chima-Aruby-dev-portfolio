@@ -6,13 +6,13 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
-    id: 1,
-    title: "Food category Website",
-    description: "This is a simple UI food category website",
-    image: "/images/projects/p4.png",
-    tag: ["All", "design"],
-    gitUrl: "https://github.com/Ndukwechima/My-Favorite-Food-Website",
-    previewUrl: "https://my-favorite-food-website.vercel.app/",
+    id: 5,
+    title: " Tasty Burger Website",
+    description: "This project is to learn typescript with Next.js",
+    image: "/images/projects/p1.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ndukwechima/Burger-website",
+    previewUrl: "https://burger-website-kappa.vercel.app/",
   },
 
   {
@@ -37,46 +37,35 @@ const projectsData = [
   },
 
   {
-    id: 4,
-    title: "React News Website",
-    description: "This is my first React project built while learning react",
-    image: "/images/projects/p2.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Ndukwechima/News-Blog-Website-React.js",
-    previewUrl: "/",
+    id: 1,
+    title: "Food category Website",
+    description: "This is a simple UI food category website",
+    image: "/images/projects/p4.png",
+    tag: ["All", "design"],
+    gitUrl: "https://github.com/Ndukwechima/My-Favorite-Food-Website",
+    previewUrl: "https://my-favorite-food-website.vercel.app/",
   },
+
+  // {
+  //   id: 4,
+  //   title: "React News Website",
+  //   description: "This is my first React project built while learning react",
+  //   image: "/images/projects/p2.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "https://github.com/Ndukwechima/News-Blog-Website-React.js",
+  //   previewUrl: "/",
+  // },
 
   {
-    id: 5,
-    title: " Fast-Hands Website",
-    description:
-      "This is an ongoing startup project with React and Tailwind CSS",
-    image: "/images/projects/p1.png",
+    id: 6,
+    title: "React Typescript Fitness Website",
+    description: "This is a React and Typescript Simple fitnes website",
+    image: "/images/projects/p5.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Ndukwechima/Fast-hand-project",
-    previewUrl: "https://fast-hand-project.vercel.app/",
+    gitUrl: "https://github.com/Ndukwechima/Flex-fit-react-typescript/",
+    previewUrl:
+      "https://flex-fit-react-typescript-otl2scyrp-chimandukwer.vercel.app/",
   },
-
-  // {
-  //   id: 6,
-  //   title: "React Typescript Fitness Website",
-  //   description: "This is a React and Typescript Simple fitnes website",
-  //   image: "/images/projects/p5.png",
-  //   tag: ["All", "Web"],
-  //   gitUrl: "https://github.com/Ndukwechima/Flex-fit-react-typescript/",
-  //   previewUrl:
-  //     "https://flex-fit-react-typescript-otl2scyrp-chimandukwer.vercel.app/",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Uloma Real-Estate Website",
-  //   description:
-  //     "This is a React Real-Estate Management Platform with Tailwind CSS",
-  //   image: "/images/projects/p3.png",
-  //   tag: ["All", "Web"],
-  //   gitUrl: "https://github.com/Ndukwechima/Uloma-real-estate-project",
-  //   previewUrl: "https://uloma-real-estate-project.vercel.app/",
-  // },
 ];
 
 const ProjectsSection = () => {

@@ -52,13 +52,13 @@ function HeroSection() {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#6c33e9] w-[250px] h-[250px]  lg:h[400px] hidden md:flex lg:flex relative">
+          <div className="rounded-full bg-[#3e1da0] w-[250px] h-[250px]  lg:h[400px] hidden md:flex lg:flex relative">
             <Image
-              src="/images/hero-image.jpg"
+              src="/images/hero-image.png"
               alt="hero image"
-              className="absolute  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full transform scale-100 hover:scale-110 transition-transform"
-              width={200}
-              height={200}
+              className="absolute w-[100%] h-[100%] object-cover  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full "
+              width={400}
+              height={100}
             />
           </div>
         </div>
