@@ -8,7 +8,8 @@ const projectsData = [
   {
     id: 5,
     title: " Tasty Burger Website",
-    description: "This project is to learn typescript with Next.js",
+    description:
+      "A simple landing page with typescript, Next.js and Tailwind CSS",
     image: "/images/projects/p1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Ndukwechima/Burger-website",
@@ -37,24 +38,14 @@ const projectsData = [
   },
 
   {
-    id: 1,
-    title: "Food category Website",
-    description: "This is a simple UI food category website",
-    image: "/images/projects/p4.png",
-    tag: ["All", "design"],
-    gitUrl: "https://github.com/Ndukwechima/My-Favorite-Food-Website",
-    previewUrl: "https://my-favorite-food-website.vercel.app/",
+    id: 4,
+    title: "React News Website",
+    description: "This is my first React project built while learning react",
+    image: "/images/projects/p2.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ndukwechima/News-Blog-Website-React.js",
+    previewUrl: "/",
   },
-
-  // {
-  //   id: 4,
-  //   title: "React News Website",
-  //   description: "This is my first React project built while learning react",
-  //   image: "/images/projects/p2.png",
-  //   tag: ["All", "Web"],
-  //   gitUrl: "https://github.com/Ndukwechima/News-Blog-Website-React.js",
-  //   previewUrl: "/",
-  // },
 
   {
     id: 6,
