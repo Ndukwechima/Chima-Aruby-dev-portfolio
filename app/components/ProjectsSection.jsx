@@ -19,12 +19,11 @@ const projectsData = [
   {
     id: 2,
     title: "E-Commerce Website",
-    description: "This is a React E-commerce website with Bootstrap",
+    description: "E-commerce website with Next.js, Typescript & Shadcn UI ",
     image: "/images/projects/p6.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Ndukwechima/Shopping-store-website",
-    previewUrl:
-      "https://shopping-store-website-7uci5l2by-chimandukwer.vercel.app/",
+    gitUrl: "https://github.com/Ndukwechima/E-shop-Next-Typescript",
+    previewUrl: "https://e-shop-next-typescript.vercel.app/",
   },
 
   {
@@ -45,17 +44,6 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Ndukwechima/News-Blog-Website-React.js",
     previewUrl: "/",
-  },
-
-  {
-    id: 6,
-    title: "React Typescript Fitness Website",
-    description: "This is a React and Typescript Simple fitnes website",
-    image: "/images/projects/p5.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Ndukwechima/Flex-fit-react-typescript/",
-    previewUrl:
-      "https://flex-fit-react-typescript-otl2scyrp-chimandukwer.vercel.app/",
   },
 ];
 
