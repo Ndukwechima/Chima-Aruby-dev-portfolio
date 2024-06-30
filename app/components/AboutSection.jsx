@@ -2,6 +2,7 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
+import { motion } from "framer-motion";
 
 const TAB_DATA = [
   {
@@ -54,18 +55,60 @@ const AboutSection = () => {
   return (
     <section id="about" className="text-white mt-[10rem]">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image
-          className="rounded-full"
-          src="/images/about-image.jpg"
-          width={500}
-          height={500}
-          alt="img"
-        />
+        <motion.div
+          initial={{
+            x: -100,
+            opacity: 0,
+          }}
+          animate={{
+            x: 0,
+            opacity: 1,
+          }}
+          transition={{
+            delay: 0.8,
+            duration: 1,
+            type: "spring",
+            stiffness: 120,
+          }}
+        >
+          <Image
+            className="rounded-full"
+            src="/images/about.jpg"
+            width={500}
+            height={500}
+            alt="img"
+          />
+        </motion.div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4 text-center lg:text-start mt-12">
+          <motion.h2
+            className="text-4xl font-bold text-white mb-4 text-center lg:text-start mt-12"
+            initial={{
+              x: 100,
+              opacity: 0,
+            }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{
+              delay: 0.8,
+              duration: 1,
+            }}
+          >
             About Me
-          </h2>
-          <p className="text-base lg:text-lg text-[#adb7be]">
+          </motion.h2>
+          <motion.p
+            className="text-base lg:text-lg text-[#adb7be]"
+            initial={{
+              x: 100,
+              opacity: 0,
+            }}
+            animate={{
+              x: 0,
+              opacity: 1,
+            }}
+            transition={{
+              delay: 1,
+              duration: 2,
+            }}
+          >
             I am a junior front-end web developer with a passion for creating
             interactive, user-friendly, and responsive web applications. I have
             experience working with HTML, CSS, Javascript, React, Tailwind CSS,
@@ -76,7 +119,7 @@ const AboutSection = () => {
             better web developer. I am a team player and I will be excited to
             work with developers, designers, and others to create amazing
             applications.
-          </p>
+          </motion.p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
