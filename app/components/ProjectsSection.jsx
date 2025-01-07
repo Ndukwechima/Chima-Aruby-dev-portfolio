@@ -6,10 +6,20 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
+    id: 9,
+    title: "Agribusiness landing page",
+    description:
+      "This is an Agribusiness landing page I designed and built for my friend. I used React.js, Typescript, and Tailwind CSS",
+    image: "/images/projects/p9.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ndukwechima/okenkwu",
+    previewUrl: "https://okenkwu-theta.vercel.app/",
+  },
+  {
     id: 5,
     title: " Tasty Burger Website",
     description:
-      "A simple landing page with typescript, Next.js and Tailwind CSS",
+      "A simple landing page with Typescript, Next.js and Tailwind CSS",
     image: "/images/projects/p1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Ndukwechima/Burger-website",
@@ -27,6 +37,17 @@ const projectsData = [
   },
 
   {
+    id: 8,
+    title: "Modern Dahboard",
+    description:
+      "This is a modern dashboard with Next.js, Typescript & Tailwind CSS",
+    image: "/images/projects/p8.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ndukwechima/Modern-React-Admin-dashboard-UI",
+    previewUrl: "https://modern-react-admin-dashboard-ui.vercel.app/",
+  },
+
+  {
     id: 3,
     title: "Next.js Movie App",
     description: "This is a simple movie app built with Next.js",
@@ -38,12 +59,13 @@ const projectsData = [
 
   {
     id: 4,
-    title: "React News Website",
-    description: "This is my first React project built while learning react",
-    image: "/images/projects/p2.png",
+    title: "Advance Business Portfolio",
+    description:
+      "This is a business portfolio I built for a senior product designer at Opex Consulting Limited. I worked on the frontend part with Next.js Typescript and Tailwind CSS while my mentor worked on the backend.",
+    image: "/images/projects/p10.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Ndukwechima/News-Blog-Website-React.js",
-    previewUrl: "/",
+    gitUrl: "https://github.com/tembeushaseer/tembe-ushaseer",
+    previewUrl: "https://www.ushaseer.com/",
   },
 ];
 
@@ -66,8 +88,9 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects" className="mt-[10rem]">
-      <h2 className="text-center text-4xl font-bold text-white mt-2 mb-8 md:mb-12">
+    <section id="projects" className=" mt-[10rem]">
+      <h2 className="text-center text-4xl font-bold text-white mt-2
+       mb-8 md:mb-12">
         My Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center mx-auto py-6">

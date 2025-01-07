@@ -6,15 +6,17 @@ import { TypeAnimation } from "react-type-animation";
 
 function HeroSection() {
   return (
-    <section className="mt-[3rem]">
-      <div className="grid grid-cols-1 md:grid-cols-12 ">
+    <section className="w-full mt-[3rem] md:mt-[8rem]">
+      <div className="w-full flex flex-col md:flex-row
+       justify-between items-center gap-8 md:gap-0">
         <motion.div
-          className="col-span-7 place-self-center text-center sm:text-left w-[80vw] md:w-[40vw] lg:w-[45vw]"
+          className="w-full md:w-[60%] place-self-center 
+          text-center sm:text-left w-[80%] md:w-[40%] lg:w-[45%]"
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold h-[20vh] md:h-[20vh] lg:h-[20vh]">
+          <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-extrabold h-[20vh] md:h-[20vh] lg:h-[20vh]">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#673be6] to-[#00c0cf]">
               Hi, I&apos;m
             </span>
@@ -34,7 +36,8 @@ function HeroSection() {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#adb7be] w-[80vw] md:w-[30vw]  lg:w-[35vw] text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="text-[#adb7be] w-[80vw] md:w-[30vw]  lg:w-[35vw] 
+                   text-base sm:text-lg mb-6 lg:text-xl">
             I am an entry-level front-end Software developer with a passion for
             creating interactive, user-friendly and responsive web applications.
           </p>
@@ -54,14 +57,14 @@ function HeroSection() {
             </button>
           </div>
         </motion.div>
-        <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#3e1da0] w-[250px] h-[250px]  lg:h[400px] hidden md:flex lg:flex relative">
+        <div>
+          <div className="md:flex md:flex">
             <Image
-              src="/images/hero-image.png"
+              src="/images/rmv.png"
               alt="hero image"
-              className="absolute w-[100%] h-[100%] object-cover  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full "
-              width={400}
-              height={100}
+              className=""
+              width={1000}
+              height={400}
             />
           </div>
         </div>

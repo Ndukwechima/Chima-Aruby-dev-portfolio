@@ -5,6 +5,8 @@ import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import { MdClose } from "react-icons/md";
+
 
 const navLinks = [
   {
@@ -32,49 +34,51 @@ const navLinks = [
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 bg-[#0b101f] h-[7rem]">
-      <div className="flex flex-wrap items-center lg:w-[100vw] justify-between mx-auto px-4 ">
+    <header className="w-full fixed top-0 left-0 right-0 z-10 bg-[#0b101f] h-[7rem]">
+      <div className="flex max-w-[90%] mt-6 flex-wrap items-center lg:w-[100vw] justify-between mx-auto px-4 md:px-[3rem] ">
         <Link
           href={"/"}
           className=" text-2xl md:text-5xl text-white font-semibold"
         >
           <Image
-            className=" mt-10 ml-7 transform scale-100 hover:scale-110 transition-transform"
+            className="md:mt-8 transform scale-100 hover:scale-110 transition-transform"
             src="/images/Logo.png"
             width={100}
             height={100}
             alt="img"
           />
         </Link>
-        <div className="mobile-menu block md:hidden mt-10">
+        <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
+              className="flex items-center px-3 py-2 text-slate-200 hover:text-white"
             >
-              <Bars3Icon className="h-5 w-5" />
+              <Bars3Icon className="h-8 w-8" />
             </button>
           ) : (
-            <button
+            <div
               onClick={() => setNavbarOpen(false)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
+              className="flex items-center px-3 py-2 text-slate-200 hover:text-white"
             >
-              <button className="h-6 w-6 text-[16px] text-center">x</button>
-            </button>
+              <button className="h-8 w-8 text-[16px] text-center">
+                <MdClose />
+              </button>
+            </div>
           )}
         </div>
-        <div className="menu hidden md:block md:w-auto h-9" id="navbar">
-          <ul className="flex p-4 md:p-0 md:flex-row mt-8 mr-7 md:space-x-8">
+        <nav className="menu hidden md:block md:w-auto" id="navbar">
+          <ul className="flex md:p-0 md:flex-row mt-8 mr-7 md:space-x-8">
             {navLinks.map((link, index) => (
               <li key={index}>
                 <NavLink href={link.path} title={link.title} />
               </li>
             ))}
           </ul>
-        </div>
+        </nav>
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks} /> : null} 
-    </nav>
+      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+    </header>
   );
 };
 
