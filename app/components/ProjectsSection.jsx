@@ -6,6 +6,38 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
+    id: 8,
+    title: "Modern Dahboard",
+    description:
+      "This is a modern dashboard with React.js, Typescript & Tailwind CSS",
+    image: "/images/projects/p8.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ndukwechima/Modern-React-Admin-dashboard-UI",
+    previewUrl: "https://modern-react-admin-dashboard-ui.vercel.app/",
+  },
+
+  {
+    id: 2,
+    title: "E-Commerce Application",
+    description: "E-commerce website with Next.js, Typescript & Shadcn UI ",
+    image: "/images/projects/p6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ndukwechima/E-shop-Next-Typescript",
+    previewUrl: "https://e-shop-next-typescript.vercel.app/",
+  },
+
+  {
+    id: 4,
+    title: "Business Portfolio Website",
+    description:
+      "This is a business portfolio I built for a senior product designer at Opex Consulting Limited. I worked on the frontend part with Next.js Typescript and Tailwind CSS while my mentor worked on the backend.",
+    image: "/images/projects/p10.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ndukwechima/Business-portfolio-website",
+    previewUrl: "https://business-portfolio-website.vercel.app/",
+  },
+
+  {
     id: 9,
     title: "Agribusiness landing page",
     description:
@@ -15,6 +47,17 @@ const projectsData = [
     gitUrl: "https://github.com/Ndukwechima/okenkwu",
     previewUrl: "https://okenkwu-theta.vercel.app/",
   },
+
+  {
+    id: 3,
+    title: "Movie App",
+    description: "This is a simple movie app built with Next.js",
+    image: "/images/projects/p7.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ndukwechima/Movie-Web-App",
+    previewUrl: "https://movie-web-app-iota.vercel.app/",
+  },
+
   {
     id: 5,
     title: " Tasty Burger Website",
@@ -24,48 +67,6 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Ndukwechima/Burger-website",
     previewUrl: "https://burger-website-kappa.vercel.app/",
-  },
-
-  {
-    id: 2,
-    title: "E-Commerce Website",
-    description: "E-commerce website with Next.js, Typescript & Shadcn UI ",
-    image: "/images/projects/p6.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Ndukwechima/E-shop-Next-Typescript",
-    previewUrl: "https://e-shop-next-typescript.vercel.app/",
-  },
-
-  {
-    id: 8,
-    title: "Modern Dahboard",
-    description:
-      "This is a modern dashboard with Next.js, Typescript & Tailwind CSS",
-    image: "/images/projects/p8.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Ndukwechima/Modern-React-Admin-dashboard-UI",
-    previewUrl: "https://modern-react-admin-dashboard-ui.vercel.app/",
-  },
-
-  {
-    id: 3,
-    title: "Next.js Movie App",
-    description: "This is a simple movie app built with Next.js",
-    image: "/images/projects/p7.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Ndukwechima/Movie-Web-App",
-    previewUrl: "https://movie-web-app-iota.vercel.app/",
-  },
-
-  {
-    id: 4,
-    title: "Advance Business Portfolio",
-    description:
-      "This is a business portfolio I built for a senior product designer at Opex Consulting Limited. I worked on the frontend part with Next.js Typescript and Tailwind CSS while my mentor worked on the backend.",
-    image: "/images/projects/p10.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/tembeushaseer/tembe-ushaseer",
-    previewUrl: "https://www.ushaseer.com/",
   },
 ];
 

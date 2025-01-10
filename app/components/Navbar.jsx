@@ -54,7 +54,7 @@ const Navbar = () => {
               onClick={() => setNavbarOpen(true)}
               className="flex items-center px-3 py-2 text-slate-200 hover:text-white"
             >
-              <Bars3Icon className="h-8 w-8" />
+              <Bars3Icon className="h-5 w-5" />
             </button>
           ) : (
             <div

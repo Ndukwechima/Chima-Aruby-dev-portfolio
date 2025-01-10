@@ -6,11 +6,11 @@ import { TypeAnimation } from "react-type-animation";
 
 function HeroSection() {
   return (
-    <section className="w-full mt-[3rem] md:mt-[8rem]">
-      <div className="w-full flex flex-col md:flex-row
+    <section className="w-full mt-[3rem] md:mt-[4rem]">
+      <div className="w-full md:max-w-7xl mx-auto flex flex-col md:flex-row
        justify-between items-center gap-8 md:gap-0">
         <motion.div
-          className="w-full md:w-[60%] place-self-center 
+          className="place-self-center 
           text-center sm:text-left w-[80%] md:w-[40%] lg:w-[45%]"
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
@@ -58,13 +58,13 @@ function HeroSection() {
           </div>
         </motion.div>
         <div>
-          <div className="md:flex md:flex">
+          <div className="md:flex">
             <Image
-              src="/images/rmv.png"
+              src="/images/rmv1.png"
               alt="hero image"
               className=""
-              width={1000}
-              height={400}
+              width={500}
+              height={0}
             />
           </div>
         </div>

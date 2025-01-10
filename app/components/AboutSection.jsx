@@ -13,8 +13,10 @@ const TAB_DATA = [
         <li>HTML5</li>
         <li>CSS3</li>
         <li>Javascript.js</li>
+         <li>Typescript</li>
         <li>React.js</li>
         <li>Next.js</li>
+         <li>Zustand and Redux Toolkit</li>
         <li>Tailwind css</li>
         <li>Git & Github</li>
       </ul>
@@ -26,7 +28,8 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Nnamdi Azikiwe Univedrsity</li>
-        <li>Learnt web development at LearnFactory Nig.</li>
+        <li>Learnt web development at LearnFactory, Aba City.</li>
+         <li>Six months Internship at PORA TECH ACADEMY, Logos City.</li>
       </ul>
     ),
   },
@@ -36,8 +39,8 @@ const TAB_DATA = [
     content: (
       <ul>
         <li>Bs.certificate</li>
-        <li>Web developement certificate</li>
-        <li>UI/UX design certificate</li>
+        <li>Front-end Software developement certificates.</li>
+        <li>UI/UX design certificate.</li>
       </ul>
     ),
   },
