@@ -68,6 +68,16 @@ const projectsData = [
     gitUrl: "https://github.com/Ndukwechima/Burger-website",
     previewUrl: "https://burger-website-kappa.vercel.app/",
   },
+
+  {
+    id: 11,
+    title: " Modern Website",
+    description: "A Modern Website with HTML, CSS and JAVASCRIPT",
+    image: "/images/projects/p3.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Ndukwechima/modern-responsive-website",
+    previewUrl: "https://modern-website-javascript.netlify.app/",
+  },
 ];
 
 const ProjectsSection = () => {
